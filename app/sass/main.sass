@@ -1,0 +1,306 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	// line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	color: $text
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width
+		width: 100%
+
+.text-center
+	text-align: center
+
+b, strong
+	font-weight: bold
+.header-logo
+	padding-top: 23px
+	padding-bottom: 10px
+	&_logo
+		width: 320px
+		height: 72px
+	&_contact
+		// border: 1px solid red
+		text-align: right
+		&_phone
+			width: 142px
+			// height: 34px
+			color: #053c6f
+			font-family: "Segoe UI"
+			font-size: 16px
+			font-weight: 700
+			// border: 1px solid red
+		&_post
+			padding-top: 0px
+			width: 142px
+			// height: 14px
+			color: #053c6f
+			font-family: "Segoe UI"
+			font-size: 16px
+			font-weight: 700
+			// border: 1px solid red
+.header-slider
+	// border: 1px solid red
+	width: 720px
+	height: 293px
+	line-height: 1
+
+	&_img_logo
+		width: 105px
+		height: 68px
+		position: absolute
+		left: 26px
+	&_txt_h1
+		
+		&_tacit
+			left: 26px
+			top: 92px
+			width: 284px
+			height: 65px
+			position: absolute
+			color: #ffffff
+			font-family: "Segoe UI"
+			font-size: 30px
+			font-weight: 700
+			line-height: 1
+		&_tn1
+			/* Style for "Шины для п" */
+			width: 347px
+			height: 63px
+			color: #ffffff
+			font-family: "Segoe UI"
+			font-size: 30px
+			font-weight: 700
+			left: 26px
+			top: 94px
+			position: absolute
+			line-height: 1
+		&_fn1
+			position: absolute
+			/* Style for "Расходные" */
+			width: 332px
+			height: 64px
+			color: #ffffff
+			font-family: "Segoe UI"
+			font-size: 30px
+			font-weight: 700
+			left: 26px
+			top: 94px
+		&_grinas
+			width: 330px
+			height: 64px
+			color: #000000
+			font-family: "Segoe UI"
+			font-size: 30px
+			font-weight: 700
+			background-color: rgba(255,255,255,0.7)
+			position: absolute
+			left: 26px
+			top: 94px
+
+		&_dvaoma
+			/* Style for "Оборудован" */
+			width: 277px
+			height: 66px
+			color: #000000
+			font-family: "Segoe UI"
+			font-size: 30px
+			font-weight: 700
+			position: absolute
+			left: 26px
+			top: 94px
+		&_realmart
+			/* Style for "Сервис стр" */
+			width: 320px
+			height: 65px
+			color: #1e0404
+			font-family: "Segoe UI"
+			font-size: 30px
+			font-weight: 700
+			position: absolute
+			left: 26px
+			top: 94px
+
+	&_content_text
+		/* Style for "Замки наве" */
+		width: 286px
+		height: 69px
+		color: #ffffff
+		font-family: "Segoe UI"
+		font-size: 15px
+		font-weight: 300
+		position: absolute
+		left: 26px
+		bottom: 46px
+		line-height: 1
+		a 
+			/* Text style for "Подробнее." */
+			color: #65b4fd
+			text-decoration: underline
+.grinas_text
+	/* Style for "Наше агент" */
+	width: 352px
+	height: 69px
+	color: #000000
+	font-family: "Segoe UI"
+	font-size: 15px
+	font-weight: 300
+	background-color: rgba(255,255,255,0.7)
+	&a 
+		/* Text style for "Подробнее." */
+		color: #47a2f7
+		text-decoration: underline
+.realmart_text
+	/* Style for "Поможет Ва" */
+	width: 289px
+	height: 65px
+	color: #050505
+	font-family: "Segoe UI"
+	font-size: 14px
+	font-weight: 300
+	&a
+		/* Text style for "Подробнее." */
+		color: #65b4fd
+		text-decoration: underline
+.dvaoma_text
+	/* Style for "Видеонаблю" */
+	width: 301px
+	height: 65px
+	color: #050505
+	font-family: "Segoe UI"
+	font-size: 14px
+	font-weight: 300
+	&a 
+		/* Text style for "Подробнее." */
+		color: #47a2f7
+		text-decoration: underline
+
+.button-slider
+	// padding-top: 5px
+	
+	&_btn 
+		/* Style for "Слой 10 ко" */
+		width: 112px
+		// height: 67px
+		padding: 5px
+		// border: 1px solid black
+		img 
+			filter: grayscale(100%)
+			transition: all 1s
+			background-color: #D3D3D3
+			overflow: hidden
+			max-width: 100%
+			&:hover
+				filter: none
+				background-color: #d2d2d2
+.act img
+	filter: none
+	background-color: #d2d2d2
+
+.body-text_h1
+	/* Style for "Наши дости" */
+	width: 267px
+	height: auto
+	color: #040404
+	font-family: "Segoe UI"
+	font-size: 30px
+	font-weight: 700
+	padding: 10px 50px
+	width: 100%
+	// padding-top: 50px
+
+
+.body-text_column_foto_logo
+	/* Style for "плашка под" */
+	width: 345px
+	height: 324px
+	background-color: #ececec
+
+
+
+.body-text_column
+	width: 345px
+	height: 430px
+	display: block
+	margin: 0 auto
+	padding: 0
+	display: block
+
+	&_foto
+		width: 345px
+		height: 259px
+
+	&_logo
+		// padding: 20px
+		padding-top: 10px
+	&_text
+		/* Style for "FN1 - наша" */
+		// display: block
+		width: 345px
+		height: 70px
+		color: #040404
+		font-family: "Segoe UI"
+		font-size: 15px
+		font-weight: 300
+		text-align: left
+		padding: 5px
+		margin: 0
+		// border: 1px solid green
+		line-height: 1.2
+		& a 
+			/* Text style for "Подробнее." */
+			color: #27355c
+			text-decoration: underline
+.footer
+	background-color: #27355c
+	color: #ffffff
+	font-family: "Segoe UI"
+	padding-top: 35px
+	padding-left: 29px
+	&_h1
+		font-size: 15px
+		font-weight: 700
+		text-align: left
+		padding-bottom: 12px
+	&_text
+		text-align: left
+		font-size: 14px
+		font-weight: 300
+		padding-bottom: 53px
+.cl1
+		width: 161px
+		height: 48px
+		// border: 1px solid red
+
+
+
+
+ 
+
+
+
+@import "media" // Always at the end
