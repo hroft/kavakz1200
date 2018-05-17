@@ -38,182 +38,246 @@ body
 b, strong
 	font-weight: bold
 .header-logo
-	padding-top: 23px
-	padding-bottom: 10px
+	padding-bottom: 32px
+	height: 176px
 	&_logo
-		width: 320px
-		height: 72px
+		padding-top: 32px
+		width: 508px
+		height: 112px
 	&_contact
+		width: 245px
+		height: 112px
+		padding-top: 43px
 		// border: 1px solid red
-		text-align: right
+		text-align: left
+		& span 
+			margin-left: 36px
 		&_phone
-			width: 142px
+			width: 230px
 			// height: 34px
 			color: #053c6f
 			font-family: "Segoe UI"
-			font-size: 16px
+			font-size: 21px
 			font-weight: 700
 			// border: 1px solid red
+			& img 
+				width: 30px
+				height: 30px
+				// margin-right: 8px
 		&_post
 			padding-top: 0px
-			width: 142px
+			width: 230px
+			text-align-last: left
 			// height: 14px
 			color: #053c6f
 			font-family: "Segoe UI"
-			font-size: 16px
+			font-size: 21px
 			font-weight: 700
 			// border: 1px solid red
+			& img 
+				width: 30px
+				height: 30px
+				// margin-right: 9px
 .header-slider
 	// border: 1px solid red
-	width: 720px
-	height: 293px
+	max-width: 1140px
+	max-height: 464px
 	line-height: 1
 
 	&_img_logo
-		width: 105px
-		height: 68px
 		position: absolute
-		left: 26px
+		left: 43px
+		/* Style for "logo_TACIT" */
+		width: 165px
+		height: 107px
 	&_txt_h1
 		
 		&_tacit
-			left: 26px
-			top: 92px
-			width: 284px
-			height: 65px
+			left: 44px
+			top: 144px
+			width: 446px
+			height: 101px
 			position: absolute
 			color: #ffffff
 			font-family: "Segoe UI"
-			font-size: 30px
+			font-size: 43px
 			font-weight: 700
 			line-height: 1
 		&_tn1
-			/* Style for "Шины для п" */
-			width: 347px
-			height: 63px
+			left: 46px
+			top: 147px
+			width: 544px
+			height: 98px
+			position: absolute
 			color: #ffffff
 			font-family: "Segoe UI"
-			font-size: 30px
+			font-size: 47px
 			font-weight: 700
-			left: 26px
-			top: 94px
-			position: absolute
 			line-height: 1
 		&_fn1
+			left: 43px
+			top: 147px
+			width: 522px
+			height: 100px
 			position: absolute
-			/* Style for "Расходные" */
-			width: 332px
-			height: 64px
 			color: #ffffff
 			font-family: "Segoe UI"
-			font-size: 30px
+			font-size: 47px
 			font-weight: 700
-			left: 26px
-			top: 94px
+			line-height: 1
 		&_grinas
-			width: 330px
-			height: 64px
+			left: 43px
+			top: 147px
+			width: 517px
+			height: 100px
+			position: absolute
 			color: #000000
 			font-family: "Segoe UI"
-			font-size: 30px
+			font-size: 47px
 			font-weight: 700
+			line-height: 1
 			background-color: rgba(255,255,255,0.7)
-			position: absolute
-			left: 26px
-			top: 94px
 
 		&_dvaoma
-			/* Style for "Оборудован" */
-			width: 277px
-			height: 66px
-			color: #000000
-			font-family: "Segoe UI"
-			font-size: 30px
-			font-weight: 700
+			left: 43px
+			top: 144px
+			width: 436px
+			height: 103px
 			position: absolute
-			left: 26px
-			top: 94px
-		&_realmart
-			/* Style for "Сервис стр" */
-			width: 320px
-			height: 65px
 			color: #1e0404
 			font-family: "Segoe UI"
-			font-size: 30px
+			font-size: 47px
 			font-weight: 700
+			line-height: 1
+		&_realmart
+			left: 43px
+			top: 146px
+			width: 503px
+			height: 102px
 			position: absolute
-			left: 26px
-			top: 94px
+			color: #1e0404
+			font-family: "Segoe UI"
+			font-size: 47px
+			font-weight: 700
+			line-height: 1
 
 	&_content_text
-		/* Style for "Замки наве" */
-		width: 286px
-		height: 69px
-		color: #ffffff
-		font-family: "Segoe UI"
-		font-size: 15px
-		font-weight: 300
-		position: absolute
-		left: 26px
-		bottom: 46px
-		line-height: 1
-		a 
-			/* Text style for "Подробнее." */
-			color: #65b4fd
-			text-decoration: underline
-.grinas_text
-	/* Style for "Наше агент" */
-	width: 352px
-	height: 69px
-	color: #000000
-	font-family: "Segoe UI"
-	font-size: 15px
-	font-weight: 300
-	background-color: rgba(255,255,255,0.7)
-	&a 
-		/* Text style for "Подробнее." */
-		color: #47a2f7
-		text-decoration: underline
-.realmart_text
-	/* Style for "Поможет Ва" */
-	width: 289px
-	height: 65px
-	color: #050505
-	font-family: "Segoe UI"
-	font-size: 14px
-	font-weight: 300
-	&a
-		/* Text style for "Подробнее." */
-		color: #65b4fd
-		text-decoration: underline
-.dvaoma_text
-	/* Style for "Видеонаблю" */
-	width: 301px
-	height: 65px
-	color: #050505
-	font-family: "Segoe UI"
-	font-size: 14px
-	font-weight: 300
-	&a 
-		/* Text style for "Подробнее." */
-		color: #47a2f7
-		text-decoration: underline
+		
+		&_tacit
+			/* Style for "Замки наве" */
+			width: 441px
+			height: 106px
+			color: #ffffff
+			font-family: "Segoe UI"
+			font-size: 23px
+			font-weight: 300
+			position: absolute
+			left: 43px
+			bottom: 79px
+			line-height: 1
+			a 
+				color: #65b4fd
+				text-decoration: underline
+
+		&_tn1
+			width: 401px
+			height: 133px
+			color: #ffffff
+			font-family: "Segoe UI"
+			font-size: 23px
+			font-weight: 300
+			position: absolute
+			left: 43px
+			bottom: 52px
+			line-height: 1
+			a 
+				color: #65b4fd
+				text-decoration: underline
+		&_fn1
+			width: 408px
+			height: 78px
+			color: #ffffff
+			font-family: "Segoe UI"
+			font-size: 23px
+			font-weight: 300
+			position: absolute
+			left: 43px
+			bottom: 106px
+			line-height: 1
+			a 
+				color: #65b4fd
+				text-decoration: underline
+		&_grinas
+			width: 542px
+			height: 106px
+			color: #000000
+			font-family: "Segoe UI"
+			font-size: 23px
+			font-weight: 300
+			position: absolute
+			left: 43px
+			bottom: 79px
+			line-height: 1
+			background-color: rgba(255,255,255,0.7)
+			a 
+				color: #47a2f7
+				text-decoration: underline
+
+		&_dvaoma
+			width: 495px
+			height: 106px
+			color: #000000
+			font-family: "Segoe UI"
+			font-size: 23px
+			font-weight: 300
+			position: absolute
+			left: 43px
+			bottom: 79px
+			line-height: 1
+			a 
+				color: #47a2f7
+				text-decoration: underline
+		&_realmart
+			width: 477px
+			height: 106px
+			color: #000000
+			font-family: "Segoe UI"
+			font-size: 23px
+			font-weight: 300
+			position: absolute
+			left: 43px
+			bottom: 79px
+			line-height: 1
+			a 
+				color: #47a2f7
+				text-decoration: underline
+
 
 .button-slider
 	// padding-top: 5px
+	// width: 100%
+	// border: 1px solid red
 	
+.button-slider
 	&_btn 
 		/* Style for "Слой 10 ко" */
-		width: 112px
+		// max-width: 365px
+		// height: 106px
+		max-width: 165px
 		// height: 67px
-		padding: 5px
+		// padding: 15px
+		margin: 0 auto
+		padding: 1px
+		margin-top: 32px
 		// border: 1px solid black
-		img 
-			filter: grayscale(100%)
-			transition: all 1s
+		& img 
+			filter: grayscale(80%)
+			transition: all 0.5s
 			background-color: #D3D3D3
 			overflow: hidden
 			max-width: 100%
+			// margin: 10px
+			// max-width: 
 			&:hover
 				filter: none
 				background-color: #d2d2d2
