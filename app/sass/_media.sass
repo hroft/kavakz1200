@@ -11,38 +11,128 @@
 
 // ≥768px
 +media-breakpoint-down(sm)
+    .body-text_h1
+        width: 372px
+        margin: 0 auto
+// .owl-carousel.owl-loaded.owl-drag 
+//     display: none 
+    .owl-carousel.owl-loaded.owl-drag
+        display: none   
+
 
 // ≥576px
 +media-breakpoint-down(xs)
+    .body-text_column_foto_logo 
+        width: 345px
+        height: 324px
+        background-color: #ececec
+        margin: 0 auto
+    .body-text_h1
+        width: 372px
+        margin: 0 auto
+    // .owl-carousel.owl-loaded.owl-drag 
+    //     display: block
+    .owl-carousel.owl-loaded.owl-drag
+        display: none  
 
 
 /*==========  Mobile First  ==========*/
 
 // ≤576px
 +media-breakpoint-up(sm)
-       
+    .body-text_column_foto_logo 
+        width: 345px
+        height: 324px
+        background-color: #ececec
+        margin: 0 auto
+    // .body-text_h1
+    //     width: 372px
+    //     margin: 0 auto
 
 // ≤768px
 +media-breakpoint-up(md)
     .header-slider_txt_h1_tacit
         font-size: 30px
-        width: 356px
-        height: 101px
-    .header-slider_content_text_tacit 
+        width: 297px
+        height: 64px
+    .header-slider_txt_h1_tn1
+        font-size: 30px
+        width: 297px
+        height: 64px
+    .header-slider_txt_h1_grinas
+        font-size: 30px
+        width: 297px
+        height: 64px
+    .header-slider_txt_h1_fn1 
+        font-size: 30px
+        width: 297px
+        height: 64px
+    .header-slider_txt_h1_dvaoma
+        font-size: 30px
+        width: 297px
+        height: 64px
+    .header-slider_txt_h1_realmart
+        font-size: 30px
+        width: 297px
+        height: 64px
+
+
+    .header-slider_content_text_tacit
         font-size: 15px
         width: 325px
         height: 60px
+    .header-slider_content_text_tn1
+        font-size: 15px
+        width: 325px
+        height: 60px
+        top: 65%
+    .header-slider_content_text_grinas
+        font-size: 15px
+        width: 325px
+        height: 60px
+        top: 65%
+    .header-slider_content_text_fn1
+        font-size: 15px
+        width: 325px
+        height: 60px
+        top: 65%
+    .header-slider_content_text_dvaoma
+        font-size: 15px
+        width: 325px
+        height: 60px
+        top: 77%
+    .header-slider_content_text_realmart 
+        font-size: 15px
+        width: 325px
+        height: 60px
+        top: 67%
+
+
+
+    .body-text_column
+        width: 357px
+    .body-text_column_foto_logo
+        width: 345px
 
 // ≤992px
 +media-breakpoint-up(lg)
-    .header-slider_txt_h1_tacit
+    .header-slider_txt_h1_tacit, .header-slider_txt_h1_tn1,
+    .header-slider_txt_h1_fn1, .header-slider_txt_h1_grinas,
+    .header-slider_txt_h1_dvaoma, .header-slider_txt_h1_realmart
         font-size: 40px
         width: 446px
         height: 101px
-    .header-slider_content_text_tacit 
+    .header-slider_content_text_tacit,.header-slider_content_text_tn1,
+    .header-slider_content_text_fn1, .header-slider_content_text_grinas,
+    .header-slider_content_text_dvaoma, .header-slider_content_text_realmart 
         font-size: 20px
         width: 441px
         height: 106px
+        top: 65%
+    .body-text_column
+        width: 250px
+    .body-text_column_foto_logo
+        width: 297px
 
 // ≤1200px
 +media-breakpoint-up(xl)
@@ -54,6 +144,10 @@
         font-size: 23px
         width: 441px
         height: 106px
+    .body-text_column
+        width: 345px
+    .body-text_column_foto_logo
+        width: 345px
 
 
 //ширина 3-х блоков для 920 297px
