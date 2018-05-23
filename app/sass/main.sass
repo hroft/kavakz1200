@@ -39,7 +39,7 @@ b, strong
 	font-weight: bold
 .header-logo
 	padding-bottom: 32px
-	height: 176px
+	// height: 176px
 	&_logo
 		padding-top: 32px
 		width: 508px
@@ -49,21 +49,26 @@ b, strong
 		width: 245px
 		height: 112px
 		padding-top: 43px
+		font-size: 21px
 		// border: 1px solid red
 		text-align: left
+		& a 
+			text-decoration: none
+			color: #053c6f
 		& span 
 			margin-left: 36px
 		&_phone
 			width: 230px
 			// height: 34px
 			color: #053c6f
-			font-family: "Segoe UI"
-			font-size: 21px
-			font-weight: 700
+			font-family: "SegoeUIBold"
+			// font-size: 21px
+			// font-weight: 700
 			// border: 1px solid red
+			// display: inline
 			& img 
-				width: 30px
-				height: 30px
+				max-width: 30px
+				max-height: 30px
 				// margin-right: 8px
 		&_post
 			padding-top: 0px
@@ -71,13 +76,13 @@ b, strong
 			text-align-last: left
 			// height: 14px
 			color: #053c6f
-			font-family: "Segoe UI"
+			font-family: "SegoeUIBold"
 			font-size: 21px
-			font-weight: 700
+			// font-weight: 700
 			// border: 1px solid red
 			& img 
-				width: 30px
-				height: 30px
+				max-width: 30px
+				max-height: 30px
 				// margin-right: 9px
 .header-slider
 	// border: 1px solid red
@@ -314,7 +319,7 @@ b, strong
 	// padding-top: 5px
 	// width: 100%
 	// border: 1px solid red
-	
+	ze: 21px
 .button-slider
 	&_btn 
 		/* Style for "Слой 10 ко" */
@@ -326,21 +331,28 @@ b, strong
 		margin: 0 auto
 		padding: 1px
 		margin-top: 32px
-		// border: 1px solid black
+		border: 1px solid white
 		& img 
-			filter: grayscale(80%)
+			// filter: grayscale(80%)
 			transition: all 0.5s
-			background-color: #D3D3D3
+			// background-color: #D3D3D3
 			overflow: hidden
 			max-width: 100%
 			// margin: 10px
 			// max-width: 
-			&:hover
-				filter: none
-				background-color: #d2d2d2
+		& img:hover
+			filter: none
+			background-color: #e0e0e2
+			// &:hover
+			// 	filter: none
+			// 	// background-color: #d2d2d2
+			// 	background-color: #e4e4e4
 .act img
 	filter: none
-	background-color: #d2d2d2
+	// background-color: #d2d2d2
+	background-color: #e0e0e2
+	// border: 1px solid 
+	// border-color: #e4e4e4
 
 .body-text_h1
 	/* Style for "Наши дости" */
@@ -359,7 +371,7 @@ b, strong
 	/* Style for "плашка под" */
 	width: 345px
 	height: 324px
-	background-color: #ececec
+	// background-color: #ececec
 
 
 
@@ -371,24 +383,30 @@ b, strong
 	padding: 0
 	display: block
 
+
 	&_foto
 		width: 345px
 		height: 259px
+		margin: 0 auto
 
 	&_logo
 		// padding: 20px
-		padding-top: 10px
+		padding-top: 5px
+		// padding-bottom: 10px
+		margin: 0 auto
 	&_text
 		/* Style for "FN1 - наша" */
 		// display: block
-		width: 345px
-		height: 70px
+		// width: 345px
+		// height: 70px
+		width: 245px
 		color: #040404
 		font-family: "SegoeUILight"
 		font-size: 15px
 		font-weight: 300
 		text-align: left
-		padding: 5px
+		// padding: 5px
+		// padding-left: 10px
 		margin: 0 auto
 		// border: 1px solid green
 		line-height: 1.2
@@ -419,7 +437,10 @@ b, strong
 		height: 48px
 		// border: 1px solid red
 
-
+.header-logo_contact
+	font-family: "SegoeUiBold"
+	font-size: 21px
+	padding-top: 20px	
 
 
  
@@ -433,4 +454,26 @@ b, strong
 	.header-logo
 		padding-bottom: 0
 		height: 80px
+	.header-logo_contact
+		display: none
+	.col_inf
+		display: none
+	// .footer
+	// 	display: flex
+	// 	padding: 0
+	// 	flex-direction: column
+	// .col_r
+	// 	margin: 0 auto
+		// &_phone
+		// 	font-size: 12px
+		// 	& span 
+		// 		margin-left: 18px		
+		// 	& img 
+		// 		width: 14px
+		// 		height: 14px
+		// &_post
+		// 	font-size: 12px
+		// 	& img 
+		// 		width: 14px
+		// 		height: 14px
 

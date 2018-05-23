@@ -36,15 +36,13 @@
             <div class="col-6 header-logo_logo">
                 <img src="img/logo-skk-01.png" alt="logo" class="img-responsive">
             </div>
-            <div class="col-3 offset-2 header-logo_contact">
+            <div class="col-3 offset-3 header-logo_contact">
                 <!-- <img src="img/tel+mail.jpg" alt="" class="img-responsive"> -->
                 <div class="header-logo_contact_phone">
-                    <img src="img/icon-phone.png" alt=""> +7 (863)91-53-40 <br>
-                    <span>+7 (863)91-53-60</span>
+                    <img src="img/icon-phone.png" alt=""> +7 (863)91-53-40 <br><span>+7 (863)91-53-60</span>
                 </div>
                 <div class="header-logo_contact_post">
-                    <img src="img/icon-mail.png" alt="">
-                    <a href="mailto:skk@mail.ru">&nbsp;&nbsp;skk@mail.ru</a>
+                    <img src="img/icon-mail.png" alt=""> skk@mail.ru
                 </div>
             </div>
         </div>
@@ -78,7 +76,7 @@
                         <img src="img/slider/slider-tn1-2--.png.jpg" alt="tn1">
                     </div>
                     <div class="header-slider_content_text_tn1">
-                        Группа компаний ТН1 является официальным дистрибьютором шин SUPERHAWK и EXMILE на территории стран Таможенного союза Белоруссии, Казахстана и России.
+                        Группа компаний ТН1 является официальным дистрибьютором шин SUPERHAWK и EXMILE на территории стран Таможенного союза Белоруссии, Казахстана и России. Подробнее...
                         <a href="http://tn1.ru">Подробнее...</a>
                     </div>
                     </a>
@@ -95,7 +93,7 @@
                         <img src="img/slider/slider-fn1.png.jpg" alt="fn1">
                     </div>
                     <div class="header-slider_content_text_fn1">
-                        Тонеры и картриджи, фотобумага, чипы и ЗИП, сублимационная печать, СНПЧ, чернила. <a href="http://fn1.ru">Подробнее...</a>
+                        Тонеры и картриджи, фотобумага, чипы и ЗИП, сублимационная печать, СНПЧ, чернила. Подробнее... <a href="http://fn1.ru">Подробнее...</a>
                     </div>
                     </a>
                 </div>
@@ -202,7 +200,7 @@
             <div class="col body-text_column">
                 <div class="body-text_column_foto_logo">
                     <img src="img/text/tn1.png" alt="tn1" class="body-text_column_foto img-responsive">
-                    <img src="img/text/tn1_logo.jpg" alt="tn1-logo" class="body-text_column_logo img-responsive">
+                    <img src="img/text/tn1-01.jpg" alt="tn1-logo" class="body-text_column_logo img-responsive">
                 </div>
                 <div class="body-text_column_text">
                     Группа компаний ТН1 является официальным дистрибьютором шин. <a href="http://tn1.ru">Подробнее...</a>
@@ -211,7 +209,7 @@
             <div class="col body-text_column">
                 <div class="body-text_column_foto_logo">
                     <img src="img/text/fn1.png" alt="fn1" class="body-text_column_foto img-responsive">
-                    <img src="img/text/fn1_logo.jpg" alt="fn1-logo" class="body-text_column_logo img-responsive">
+                    <img src="img/text/fn1-01.png" alt="fn1-logo" class="body-text_column_logo img-responsive">
                 </div>
                 <div class="body-text_column_text">
                     FN1 - наша компания специализируется на оптовых продажах расходных... <a href="http://fn1.ru">Подробнее...</a>
@@ -220,17 +218,17 @@
             <div class="col body-text_column">
                 <div class="body-text_column_foto_logo">
                     <img src="img/text/grinas-.png" alt="grinas" class="body-text_column_foto img-responsive">
-                    <img src="img/text/grinas_logo.jpg" alt="grinas1-logo" class="body-text_column_logo img-responsive">
+                    <img src="img/text/grinas-01.png" alt="grinas1-logo" class="body-text_column_logo img-responsive">
                 </div>
                 <div class="body-text_column_text">
-                    Гринас - это агентство недвижимости в Ростове-на-Дону.
+                    Гринас - это агентство недвижимости в Ростове-на-Дону. Подробнее...
                     <a href="http://grinas.ru">Подробнее...</a>
                 </div>
             </div>
             <div class="col body-text_column">
                 <div class="body-text_column_foto_logo">
                     <img src="img/text/dvaoma.png" alt="dvaoma" class="body-text_column_foto img-responsive">
-                    <img src="img/text/dvaoma_logo.jpg" alt="dvaoma-logo" class="body-text_column_logo img-responsive">
+                    <img src="img/text/dvaoma-01.png" alt="dvaoma-logo" class="body-text_column_logo img-responsive">
                 </div>
                 <div class="body-text_column_text">
                     DvaOma - это оборудование для дома и офиса.
@@ -240,7 +238,7 @@
             <div class="col body-text_column">
                 <div class="body-text_column_foto_logo">
                     <img src="img/text/realmart.png" alt="realmart" class="body-text_column_foto img-responsive">
-                    <img src="img/text/realmart_logo.jpg" alt="realmart-logo" class="body-text_column_logo img-responsive">
+                    <img src="img/text/realmart-01.png" alt="realmart-logo" class="body-text_column_logo img-responsive">
                 </div>
                 <div class="body-text_column_text">
                     RealMart - онлайн сервис позволяющий выбрать на рынке строительных
@@ -263,7 +261,7 @@
                     +7 (863) 291-53-40 <br>+7 (863) 291-53-60 <br> skk@mail.ru
                 </div>
             </div>
-            <div class="col col_inf">
+            <div class="col">
                 <div class="footer_h1">Информация</div>
                 <div class="footer_text">
                     О Компании <br> Доставка товара <br> Использование информации <br> Предложения о сотрудничестве
